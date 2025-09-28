@@ -1,0 +1,18 @@
+#Code 1:
+def Square(*numbers):
+    for i in numbers:
+        i=i*i
+    return i     # return statement is use to return the value of statement back to the calling function
+
+
+print(Square(7))     #Square(7) is the calling function
+
+
+#Code 2:
+def Avg(*numbers):
+    sum = 0
+    for i in numbers:
+        sum=sum+i
+    print("Average value is:",sum/len(numbers))
+
+Avg(2,4,6,8,10)
