@@ -1,0 +1,36 @@
+#Code 1 :
+
+import time
+
+# Current time in HH:MM:SS format
+timestamp = time.strftime('%H:%M:%S')
+print(timestamp)
+
+# Current hour
+timestamp = time.strftime('%H')
+print(timestamp)
+
+# Current minute
+timestamp = time.strftime('%M')
+print(timestamp)
+
+# Current second
+timestamp = time.strftime('%S')
+print(timestamp)
+
+
+#Code 2 :
+
+import time
+t=time.strftime('%H:%M:%S')
+Hour=int(time.strftime('%H'))
+print(Hour)
+
+if Hour>1 and Hour<12:
+    print("Good Morning")
+elif Hour>=12 and Hour<16:
+    print("Good Afternoon")
+elif Hour>=16 and Hour<21:
+    print("Good Evening")
+else:
+    print("Good Night")
