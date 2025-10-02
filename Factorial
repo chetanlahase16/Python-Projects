@@ -1,0 +1,10 @@
+def Factorial(n):
+    print(n)
+    Fact =1
+    for i in range(n):
+        Fact = Fact*n
+        n=n-1
+        
+    print(Fact)
+
+Factorial(5)
