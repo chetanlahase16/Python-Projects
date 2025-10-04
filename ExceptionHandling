@@ -1,0 +1,9 @@
+A=input("Enter your number:")
+
+try:
+    for i in range(1,11):
+        A= i*int(A)
+        print(A)
+
+except:
+    print("Invalid Input")   #We can handle different types of errors 
