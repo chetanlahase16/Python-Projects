@@ -7,3 +7,6 @@ try:
 
 except:
     print("Invalid Input")   #We can handle different types of errors 
+
+Finally:
+    print("I am always executed")
